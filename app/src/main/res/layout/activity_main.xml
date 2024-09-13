@@ -8,22 +8,64 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <View
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="#008751"/>
+        android:orientation="horizontal"
+        android:background="#008751"
+        android:gravity="start">
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="#FFFFFF"/>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:layout_marginEnd="20dp"/>
 
-    <View
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"/>
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="#EF4135"/>
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal">
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="#008751"
+            android:layout_marginEnd="20dp"/>
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="#008751"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="#EF4135"
+        android:gravity="end">
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:layout_marginEnd="20dp"/>
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"/>
+    </LinearLayout>
 
 </LinearLayout>
